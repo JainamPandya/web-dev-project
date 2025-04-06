@@ -1,0 +1,315 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff5733;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff5733;
+}
+
+.cta-button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #e04e2f;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #ff5733;
+    color: #333;
+    background-image: url('blur-coffee-cafe-shop-restaurant-with-bokeh-background-xd.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff5733;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.hero-btn {
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.hero-btn.primary {
+    background: #ff5733;
+    color: white;
+}
+
+.hero-btn.primary:hover {
+    background: #e04e2f;
+}
+
+.hero-btn.secondary {
+    background: #fff;
+    color: #ff5733;
+    border: 2px solid #ff5733;
+}
+
+.hero-btn.secondary:hover {
+    background: #ff5733;
+    color: white;
+}
+.featured-items {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.featured-items h2 {
+    
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+.items-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    max-height: 50%;
+}
+
+.item h3 {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #ff5733;
+}
+
+.item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.item-button {
+    background: #ff5733;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.item-button:hover {
+    background: #e04e2f;
+}
+
+
+.why-choose-us {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.why-choose-us h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.feature img {
+    width: 220px;
+    height: 220px;
+    
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ff5733;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+}
+.customer-reviews {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    width: 100%;
+}
+
+.customer-reviews h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.review {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.review p {
+    font-size: 16px;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    font-size: 18px;
+    color: #ff5733;
+}
+footer {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #333;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff5733;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #d43f00;
+}
+
+
